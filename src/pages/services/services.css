@@ -1,0 +1,91 @@
+.services {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 70px;
+}
+
+.servicesTop {
+    top: 10px;
+    height: 50%;
+    width: 100%;
+    background-image: url('../../assets//images/laoptop.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.servicesTop::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.servicesBottom {
+    height: 50%;
+    width: 100%;
+}
+
+.servicesContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    min-height: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 10px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.serviceContainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.service {
+    margin: 20px 0;
+    width: 25%;
+    text-align: center;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.service i {
+    font-size: 35px;
+}
+
+.serviceName {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media screen and (max-width:750px) {
+    .serviceContainer {
+        flex-direction: column;
+        overflow-y: auto;
+    }
+
+    .service:nth-child(3) {
+        display: none;
+    }
+
+    .service {
+        width: 70%;
+    }
+
+}

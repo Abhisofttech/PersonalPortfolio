@@ -1,0 +1,30 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #212121;
+    color: #e1e1e1;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+.footerIcons{
+    margin-left: 10px;
+}
+.footerIcons a{
+    color: #e1e1e1;
+    margin-right: 19px;
+    font-size: 25px;
+}
+
+@media screen  and (max-width:500px){
+    .footer{
+        font-size: 12px;
+    }
+    .footerIcons a{
+        font-size: 15px;
+    }
+}

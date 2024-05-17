@@ -1,0 +1,91 @@
+.project{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.cardCaontainer{
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ gap: 20px;
+}
+.card {
+    width: 30%;
+    height: 250px;
+    border: 2px solid #212121;
+    border-radius: 7px;
+     overflow: hidden; 
+    opacity: 0.8;
+    position: relative;
+   
+   
+}
+.cardImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.cardDetail{
+position: absolute;
+bottom: -50%;
+left: 0;
+background-color: rgb(9, 7, 7 ,0.62);
+width: 100%;
+height: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+color: #e1e1e1;
+backdrop-filter: blur(4px);
+transition: 0.4s;
+}
+.card:hover .cardDetail{
+    bottom: 0;
+}
+.cardName{
+    font-size: 20px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 9px;
+}
+.cardIconContainer{
+    display: flex;
+}
+.icon{
+    border: 1px solid white;
+    background-color: #212121;
+    margin-right: 5px;
+    padding: 5px  12px;
+    
+}
+.icon a{
+    display: flex;
+    gap: 8px;
+    text-decoration: none;
+    color: #e1e1e1;
+}
+
+
+
+@media screen and (max-width:750px) {
+    .card{
+        width: 45%;
+        height: 230px;
+    }
+}
+@media screen and (max-width:500px) {
+    .card{
+        width: 90%;
+        height: 250px;
+    }
+    .head{
+        font-size: 30px;
+    }
+}

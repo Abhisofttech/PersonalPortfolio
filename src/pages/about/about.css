@@ -1,0 +1,82 @@
+
+.head{
+    font-family: "Cormorant Infant", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+  margin: 10px;
+  padding-top: 60px;
+  border-bottom: 4px dotted #212121;
+}
+
+.skills{
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.skillsGroup{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.skillContainer{
+    margin-top: 24px;
+    width: 30%;
+}
+.skillName{
+    font-size: 22px;
+    font-family: "Cormorant Infant", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.skillBar{
+    width: 100%;
+    height: 14px;
+    background-color: #e1e1e1;
+}
+.skillBarVAlue{  
+    height: 100%;
+    background-color: #4d4d4d;
+}
+.html{
+    width: 95%;
+}
+.css{
+    width: 80%;
+}
+.js{
+    width: 75%;
+}
+.react{
+    width: 70%;
+}
+.node{
+    width: 20%;
+}
+.mysql{
+    width: 85%;
+}
+.bootstrap{
+width: 83%;
+}
+@media screen and (max-width:800px){
+    .skillContainer{
+        width: 45%;
+    }
+}
+@media screen and (max-width:500px){
+    .skillContainer{
+        width: 90%;
+    }
+    .skillsGroup{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+}
