@@ -53,6 +53,9 @@ textarea{
     padding: 10px;
     width: 100%;
 }
+.result{
+    color: green;
+}
 @media screen and (max-width:600px){
     
    
