@@ -5,20 +5,20 @@ const Contact = () => {
         <>
             <div className="contact">
                 <div className="head">Contact</div>
-                <form>
+                <form action="https://api.web3forms.com/submit" method="POST">
                     <div className="inputBox">
-
+                    <input type="hidden" name="access_key" value="0fc3ab89-c8be-4127-b941-bfeee622ec59"></input>
                         <div className="formInputContainer">
-                            <input type="text" className='formInput' placeholder='Name' />
+                            <input type="text" name='Name' className='formInput' placeholder='Name' />
                         </div>
                         <div className="formInputContainer">
-                            <input type="email" className='formInput' placeholder='E-mail' />
+                            <input type="email" name='Email' className='formInput' placeholder='E-mail' />
                         </div>
                     </div>
                     <div className="formTextAreaContainer">
-                        <textarea name="" id="" placeholder='Message'></textarea>
+                        <textarea name="Message" id="" placeholder='Message'></textarea>
                     </div>
-                    <button className="btn btnLight btnWidth">Submit</button>
+                    <button type='submit' className="btn btnLight btnWidth">Submit</button>
                 </form>
             </div>
         </>
