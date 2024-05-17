@@ -9,14 +9,14 @@ const Contact = () => {
                     <div className="inputBox">
                     <input type="hidden" name="access_key" value="0fc3ab89-c8be-4127-b941-bfeee622ec59"></input>
                         <div className="formInputContainer">
-                            <input type="text" name='Name' className='formInput' placeholder='Name' />
+                            <input type="text" name='Name' className='formInput' placeholder='Name' required />
                         </div>
                         <div className="formInputContainer">
-                            <input type="email" name='Email' className='formInput' placeholder='E-mail' />
+                            <input type="email" name='Email' className='formInput' placeholder='E-mail' required/>
                         </div>
                     </div>
                     <div className="formTextAreaContainer">
-                        <textarea name="Message" id="" placeholder='Message'></textarea>
+                        <textarea name="Message" id="" placeholder='Message' required></textarea>
                     </div>
                     <button type='submit' className="btn btnLight btnWidth">Submit</button>
                 </form>
