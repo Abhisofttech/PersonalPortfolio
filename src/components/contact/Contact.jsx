@@ -4,28 +4,28 @@ import './contact.css'
 const Contact = () => {
     const [result, setResult] = useState("");
 
-  const onSubmit = async (event) => {
-    event.preventDefault();
-    setResult("Sending....");
-    const formData = new FormData(event.target);
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
 
-    formData.append("access_key", "0fc3ab89-c8be-4127-b941-bfeee622ec59");
+        formData.append("access_key", "0fc3ab89-c8be-4127-b941-bfeee622ec59");
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData
-    });
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
 
-    const data = await response.json();
+        const data = await response.json();
 
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
-    }
-  };
+        if (data.success) {
+            setResult("Form Submitted Successfully");
+            event.target.reset();
+        } else {
+            console.log("Error", data);
+            setResult(data.message);
+        }
+    };
     return (
         <>
             <div className="contact">
@@ -36,7 +36,7 @@ const Contact = () => {
                             <input type="text" name='Name' className='formInput' placeholder='Name' required />
                         </div>
                         <div className="formInputContainer">
-                            <input type="email" name='Email' className='formInput' placeholder='E-mail' required/>
+                            <input type="email" name='Email' className='formInput' placeholder='E-mail' required />
                         </div>
                     </div>
                     <div className="formTextAreaContainer">

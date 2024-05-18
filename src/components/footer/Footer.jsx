@@ -21,6 +21,9 @@ const Footer = () => {
                     <a href="https://wa.me/9315632606" rel='noreferrer' target='_blank'>
                         <i className="fa-brands fa-square-whatsapp"></i>
                     </a>
+                    <a href="https://www.instagram.com/abhi_soft_tech/" rel='noreferrer' target='_blank'>
+                    <i className="fa-brands fa-square-instagram"></i>
+                    </a>
                 </div>
                 <div className="footerCopyright">
                     &#169; All Right Reserved. 2024
