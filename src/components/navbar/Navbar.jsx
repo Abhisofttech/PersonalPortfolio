@@ -1,31 +1,30 @@
 import { useState } from 'react';
 import './navbar.css'
-import { NavLink } from 'react-router-dom';
 
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleNavbar = () => {
-      setIsOpen(!isOpen); 
+        setIsOpen(!isOpen);
     };
     return (
         <>
             <div className="navbar">
                 <div className="logo ">
-                     <span>Portfolio</span>
-                     <span className="bars" onClick={toggleNavbar}>
-                     <i className="fa-solid fa-bars "></i>
+                    <span>Portfolio</span>
+                    <span className="bars" onClick={toggleNavbar}>
+                        <i className="fa-solid fa-bars "></i>
 
-                     </span>
+                    </span>
                 </div>
                 <div className="menu ">
                     <ul className={`listItem ${isOpen ? 'listItem' : 'listClose'}`}>
-                        <li className="listContent"><NavLink to="/">Home</NavLink></li>
-                        <li className="listContent"><NavLink to="/skill">Skills</NavLink></li>
-                        <li className="listContent"><NavLink to="/project">Projects</NavLink></li>
-                        <li className="listContent"><NavLink to="/service">Services</NavLink></li>
-                        <li className="listContent"><NavLink to="/contact">Contact</NavLink></li>
+                        <li className="listContent"><a href="#hero">Home</a></li>
+                        <li className="listContent"><a href="#skill">Skills</a></li>
+                        <li className="listContent"><a href="#project">Projects</a></li>
+                        <li className="listContent"><a href="#service">Services</a></li>
+                        <li className="listContent"><a href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

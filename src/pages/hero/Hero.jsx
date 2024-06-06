@@ -6,7 +6,7 @@ import resume from '../../assets/Abhishek Resume.pdf'
 const Hero = () => {
     return (
         <>
-            <div className="hero">
+            <div className="hero" id='hero'>
                 
                 <div className="leftHero">
                     <div className="leftItem">

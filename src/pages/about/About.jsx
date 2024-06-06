@@ -4,7 +4,7 @@ const About = () => {
     return (
         <>
            
-            <div className="skills">
+            <div className="skills" id='skill'>
                 <span className="head">MY SKILLS</span>
                 <div className="skillsGroup">
                     <div className="skillContainer">

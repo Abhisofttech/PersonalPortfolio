@@ -9,7 +9,7 @@ import Other from '../../assets/images/others.jpg'
 const Project = () => {
   return (
     <>
-      <div className="project">
+      <div className="project" id='project'>
         <span className="head">MY RECENT WORKS</span>
         <div className="cardCaontainer">
           <div className="card">
