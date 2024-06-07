@@ -82,8 +82,20 @@ transition: 0.4s;
 }
 @media screen and (max-width:500px) {
     .card{
-        width: 90%;
-        height: 250px;
+        width: 45%;
+        height: 150px;
+    }
+    .cardName{
+        font-size: 12px;
+    }
+    .icon{
+        padding: 2px 5px;
+    }
+    .linkName{
+        font-size: 12px;
+    }
+    .iconLink{
+        font-size: 10px;
     }
     .head{
         font-size: 30px;

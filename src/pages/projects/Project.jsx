@@ -20,13 +20,13 @@ const Project = () => {
                 <div className="icon">
                   <a href="https://dashboardwebsitebyabhishek.netlify.app/" target='_blank' rel="noreferrer">
 
-                <i class="fa-solid fa-eye"></i> <p>Live</p>
+                <i className=" iconLink fa-solid fa-eye"></i> <p className='linkName'>Live</p>
                   </a>
                 </div>
                 <div className="icon">
                   <a href="https://github.com/Abhisofttech/Dashboard" target='_blank' rel="noreferrer">
 
-                <i class="fa-solid fa-link"></i> <p>Link</p>
+                <i className=" iconLink fa-solid fa-link"></i> <p className='linkName'>Link</p>
                   </a>
                 </div>
               </div>
@@ -40,13 +40,13 @@ const Project = () => {
                 <div className="icon">
                   <a href="https://abhisofttech.github.io/FoodWebsiteByAbhishek/" target='_blank' rel="noreferrer">
 
-                  <i class="fa-solid fa-eye"></i> <p>Live</p>
+                  <i className=" iconLink fa-solid fa-eye"></i> <p className='linkName'>Live</p>
                   </a>
                 </div>
                 <div className="icon">
                   <a href="https://github.com/Abhisofttech/FoodWebsiteByAbhishek" target='_blank' rel="noreferrer">
 
-                  <i class="fa-solid fa-link"></i> <p>Link</p>
+                  <i className=" iconLink fa-solid fa-link"></i> <p className='linkName'>Link</p>
                   </a>
                 </div>
               </div>
@@ -61,7 +61,7 @@ const Project = () => {
                 <div className="icon">
                   <a href="https://github.com/Abhisofttech/StudentManagementSystemByAbhishek" target='_blank' rel="noreferrer">
 
-                  <i class="fa-solid fa-link"></i> <p>Link</p>
+                  <i className=" iconLink fa-solid fa-link"></i> <p className='linkName'>Link</p>
                   </a>
                 </div>
               </div>
@@ -76,7 +76,7 @@ const Project = () => {
                 <div className="icon">
                   <a href="/" target='_blank' rel="noreferrer">
 
-                  <i class="fa-solid fa-link"></i> <p>Not Available</p>
+                  <i className=" iconLink fa-solid fa-link"></i> <p className='linkName'>Not Available</p>
                   </a>
                 </div>
               </div>
@@ -91,7 +91,7 @@ const Project = () => {
                 <div className="icon">
                   <a href="https://github.com/Abhisofttech/NewsUsingFunctionBasedComponent" target='_blank' rel="noreferrer">
 
-                  <i class="fa-solid fa-link"></i> <p>Link</p>
+                  <i className=" iconLink fa-solid fa-link"></i> <p className='linkName'>Link</p>
                   </a>
                 </div>
               </div>
@@ -105,7 +105,7 @@ const Project = () => {
                 <div className="icon">
                   <a href="https://github.com/Abhisofttech" target='_blank' rel="noreferrer">
 
-                  <i class=" fa-brands fa-square-github"></i> <p>Visit GitHub</p>
+                  <i className="iconLink  fa-brands fa-square-github"></i> <p className='linkName'>Visit GitHub</p>
                   </a>
                 </div>
                 
