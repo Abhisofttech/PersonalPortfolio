@@ -74,7 +74,7 @@ const Project = () => {
               <div className="cardIconContainer">
                 
                 <div className="icon">
-                  <a href="/" target='_blank' rel="noreferrer">
+                  <a href="/" >
 
                   <i className=" iconLink fa-solid fa-link"></i> <p className='linkName'>Not Available</p>
                   </a>
