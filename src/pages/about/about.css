@@ -49,13 +49,19 @@
     width: 80%;
 }
 .js{
-    width: 75%;
+    width: 85%;
 }
 .react{
     width: 70%;
 }
 .node{
-    width: 20%;
+    width: 76%;
+}
+.express{
+    width:70%
+}
+.mongo{
+    width:50%
 }
 .mysql{
     width: 85%;

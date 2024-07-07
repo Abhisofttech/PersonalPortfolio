@@ -32,9 +32,21 @@ const About = () => {
                         </div>
                     </div>
                     <div className="skillContainer">
-                        <span className="skillName">NODEJS [Learning...]</span>
+                        <span className="skillName">NODEJS </span>
                         <div className="skillBar">
                             <div className="skillBarVAlue node"></div>
+                        </div>
+                    </div>
+                    <div className="skillContainer">
+                        <span className="skillName">Express </span>
+                        <div className="skillBar">
+                            <div className="skillBarVAlue express"></div>
+                        </div>
+                    </div>
+                    <div className="skillContainer">
+                        <span className="skillName">MongoDB [Learning...] </span>
+                        <div className="skillBar">
+                            <div className="skillBarVAlue mongo"></div>
                         </div>
                     </div>
                     <div className="skillContainer">
