@@ -6,7 +6,7 @@ import resume from '../../assets/Abhishek Resume.pdf'
 const Hero = () => {
     return (
         <>
-            <div className="hero" id='hero'>
+            <div className="hero" id='hero' >
                 
                 <div className="leftHero">
                     <div className="leftItem">
@@ -24,7 +24,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="about">
+            <div className="about " >
                 <span className="head">ABOUT</span>
                 <div className="aboutDetail">
                 Hi, I'm Abhishek, a web developer based in Delhi, India. Pursuing a Master's in Computer Application and holding a Bachelor's degree, I specialize in HTML, CSS, JavaScript, Bootstrap, React.js, Node.js, Express, and MongoDB. I've built dynamic websites and robust server-side applications using modern technologies for engaging user experiences. I'm passionate about creating web applications and committed to continuous learning. Let's collaborate and build something great!

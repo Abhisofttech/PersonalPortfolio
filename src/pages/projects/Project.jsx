@@ -4,7 +4,7 @@ import Food from '../../assets/images/Food.jpg'
 import Academic from '../../assets/images/Acdemic.jpg'
 import Bug from '../../assets/images/Bug.jpg'
 import News from '../../assets/images/News.jpg'
-import Other from '../../assets/images/others.jpg'
+import Book from '../../assets/images/book.jpg'
 
 const Project = () => {
   return (
@@ -25,6 +25,26 @@ const Project = () => {
                 </div>
                 <div className="icon">
                   <a href="https://github.com/Abhisofttech/Dashboard" target='_blank' rel="noreferrer">
+
+                <i className=" iconLink fa-solid fa-link"></i> <p className='linkName'>Link</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="card">
+            <img src={Book} alt="" className="cardImg" />
+            <div className="cardDetail">
+              <div className="cardName">Book Store [MERN] </div>
+              <div className="cardIconContainer">
+                <div className="icon">
+                  <a href="https://get-book-app-frontend.onrender.com/" target='_blank' rel="noreferrer">
+
+                <i className=" iconLink fa-solid fa-eye"></i> <p className='linkName'>Live</p>
+                  </a>
+                </div>
+                <div className="icon">
+                  <a href="https://github.com/Abhisofttech/Get_BooK_App" target='_blank' rel="noreferrer">
 
                 <i className=" iconLink fa-solid fa-link"></i> <p className='linkName'>Link</p>
                   </a>
@@ -97,7 +117,7 @@ const Project = () => {
               </div>
             </div>
           </div>
-          <div className="card">
+          {/* <div className="card">
             <img src={Other} alt="" className="cardImg" />
             <div className="cardDetail">
               <div className="cardName">Other Projects </div>
@@ -111,7 +131,7 @@ const Project = () => {
                 
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

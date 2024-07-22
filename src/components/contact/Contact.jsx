@@ -42,7 +42,7 @@ const Contact = () => {
                     <div className="formTextAreaContainer">
                         <textarea name="Message" id="" placeholder='Message' required></textarea>
                     </div>
-                    <button type='submit' className="btn btnLight btnWidth">Submit</button>
+                    <button type='submit' className="btn btnLight btnWidth ">Submit</button>
                 </form>
                 <span className='result'>{result}</span>
             </div>
