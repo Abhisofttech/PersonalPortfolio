@@ -44,7 +44,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="skillContainer">
-                        <span className="skillName">MongoDB [Learning...] </span>
+                        <span className="skillName">MongoDB  </span>
                         <div className="skillBar">
                             <div className="skillBarVAlue mongo"></div>
                         </div>
